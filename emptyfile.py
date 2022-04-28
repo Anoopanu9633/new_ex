@@ -1,2 +1,5 @@
-# python program to print "Hello World"
-print("Hello World")
+class Simple{  
+    public static void main(String args[]){  
+     System.out.println("Hello Java");  
+    }  
+}  
