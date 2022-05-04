@@ -1,84 +1,84 @@
-package calculator;
-
-//Java program for simple calculator
-
+package calcu;
 import java.io.*;
 import java.lang.*;
-import java.lang.Math;
 import java.util.Scanner;
 
 public class calculator {
 
-	public static void main(String[] args)
-	{
+	public static void main(String[] args) {
 		// stores two numbers
-		double num1, num2;
+				double num1, num2;
 
-		// Take input from the user
-		Scanner sc = new Scanner(System.in);
+				// Take input from the user
+				Scanner sc = new Scanner(System.in);
 
-		System.out.println("Enter the numbers");
+				System.out.println("Enter the numbers");
 
-		// take the inputs
-		num1 = sc.nextDouble();
+				// take the inputs
+				num1 = sc.nextDouble();
 
-		num2 = sc.nextDouble();
+				num2 = sc.nextDouble();
 
-		System.out.println("Enter the operator (+,-,*,/)");
+				System.out.println("Enter the operator (+,-,*,/)");
 
-		char op = sc.next().charAt(0);
+				char op = sc.next().charAt(0);
 
-		double o = 0;
+				double o = 0;
 
-		switch (op) {
+				switch (op) {
 
-		// case to add two numbers
-		case '+':
+				// case to add two numbers
+				case '+':
 
-			o = num1 + num2;
+					o = num1 + num2;
 
-			break;
+					break;
 
-		// case to subtract two numbers
-		case '-':
+				// case to subtract two numbers
+				case '-':
 
-			o = num1 - num2;
+					o = num1 - num2;
 
-			break;
+					break;
 
-		// case to multiply two numbers
-		case '*':
+				// case to multiply two numbers
+				case '*':
 
-			o = num1 * num2;
+					o = num1 * num2;
 
-			break;
+					break;
 
-		// case to divide two numbers
-		case '/':
+				// case to divide two numbers
+				case '/':
 
-			o = num1 / num2;
+					o = num1 / num2;
 
-			break;
+					break;
 
-		default:
+				default:
 
-			System.out.println("You enter wrong input");
+					System.out.println("You enter wrong input");
 
-			break;
-		}
+					break;
+				}
 
-		System.out.println("The final result:");
+				System.out.println("The final result:");
 
-		System.out.println();
+				System.out.println();
 
-		// print the final result
-		System.out.println(num1 + " " + op + " " + num2
-						+ " = " + o);
+				// print the final result
+				System.out.println(num1 + " " + op + " " + num2
+								+ " = " + o);
+			
+		
+
+
+
+
+
+
+
+
 	}
+
 }
-
-
-
-
-
-
