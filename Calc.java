@@ -4,7 +4,7 @@ public class Calc
 {
 	public static void main(String[] args) throws Exception
 	{
-		//System.out.print("Enter the operators: (+,-,*,/)");
+		System.out.print("Enter the operators: (+,-,*,/)");
 		String optr=args[0];
 		int a=args[1];
 		int b=args[2];
