@@ -1,4 +1,4 @@
-package simplecalculator;
+package calculator;
 
 //Java program for simple calculator
 
@@ -7,7 +7,7 @@ import java.lang.*;
 import java.lang.Math;
 import java.util.Scanner;
 
-public class calcu {
+public class calculator {
 
 	public static void main(String[] args)
 	{
