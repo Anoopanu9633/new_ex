@@ -7,7 +7,7 @@ import java.lang.*;
 import java.lang.Math;
 import java.util.Scanner;
 
-public class simplecalculator {
+public class calcu {
 
 	public static void main(String[] args)
 	{
