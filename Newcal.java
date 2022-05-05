@@ -2,7 +2,7 @@
 		import java.util.*;
 		import java.util.Scanner;
 		
-		public class newcalc {
+		public class Calcu {
 			public static void main(String[] args) throws Exception
 			{
 				//System.out.print("Enter the operators: (+,-,*,/)");
